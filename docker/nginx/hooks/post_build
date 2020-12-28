@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker build --target dev -f $DOCKERFILE_PATH -t $IMAGE_NAME-dev .
+docker push $IMAGE_NAME-dev

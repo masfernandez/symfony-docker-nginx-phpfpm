@@ -1,0 +1,5 @@
+###> symfony-docker-nginx-phpfpm ###
+.env
+var/
+!.gitkeep
+###< symfony-docker-nginx-phpfpm ###
